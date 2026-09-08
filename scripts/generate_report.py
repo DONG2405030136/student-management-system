@@ -241,16 +241,17 @@ bullet('git init  —— 初始化本地仓库')
 bullet('git add .  —— 添加全部项目文件')
 bullet('git commit -m "学生信息管理系统 期末考核项目 初始提交"  —— 提交代码')
 bullet('git branch -M main  —— 设置主分支为 main')
-bullet('git remote add origin https://github.com/用户名/student-management-system.git  —— 关联远程仓库')
+bullet('git remote add origin https://github.com/DONG2405030136/student-management-system.git  —— 关联远程仓库')
 bullet('git push -u origin main  —— 推送代码到 GitHub')
 para('本地仓库已提交完成（共 59 个文件：后端、前端、提示词、截图、脚本、说明文档），'
      '已提供一键上传脚本 scripts/上传到GitHub.bat，填入个人仓库地址即可完成推送。')
 
 heading('（三）克隆项目 https 地址', 2)
-para('仓库创建并推送完成后，复制仓库 https 克隆地址填写于此：', bold=True)
-para('https://github.com/用户名/student-management-system.git', bold=True, indent=False)
-para('（说明：需先在 GitHub 创建个人公开仓库并推送后，将上方的"用户名"替换为本人 GitHub 用户名，'
-     '该地址即可用于 git clone 拉取项目，实现本地及云端项目生成与迭代开发。）')
+para('仓库已创建并推送完成，克隆项目的 https 地址如下：', bold=True)
+para('https://github.com/DONG2405030136/student-management-system.git', bold=True, indent=False)
+para('（说明：该地址为本人 GitHub 公开仓库（用户名 DONG2405030136）的克隆地址，'
+     '可通过 git clone https://github.com/DONG2405030136/student-management-system.git 拉取项目，'
+     '实现本地及云端项目生成与迭代开发。）')
 
 # ================= 三、报错排查 =================
 heading('三、开发过程报错排查记录', 1)

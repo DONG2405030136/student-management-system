@@ -93,18 +93,18 @@ npm run dev
 
 1. 注册 GitHub（https://github.com）并登录；
 2. 点击 New repository 创建**公开**仓库，仓库名如 `student-management-system`；
-3. 在项目根目录打开终端，依次执行：
+3. 在项目根目录打开终端，依次执行（本项目已完成，远程仓库：`https://github.com/DONG2405030136/student-management-system.git`）：
 
 ```bash
 git init
 git add .
 git commit -m "学生信息管理系统 初始提交"
 git branch -M main
-git remote add origin https://github.com/你的用户名/student-management-system.git
+git remote add origin https://github.com/DONG2405030136/student-management-system.git
 git push -u origin main
 ```
 
-4. 提交完成后，复制仓库的 `https` 克隆地址（如 `https://github.com/你的用户名/student-management-system.git`），写入考核报告。
+4. 提交完成后，仓库的 `https` 克隆地址为 `https://github.com/DONG2405030136/student-management-system.git`，已写入考核报告。
 
 > 也可以直接双击运行 `scripts/上传到GitHub.bat`，按提示输入仓库地址即可完成推送。
 
